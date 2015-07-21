@@ -102,20 +102,20 @@ response = gets.chomp
 
 while response != "no"
 if response == "yes"
-	puts "19 Cafe — down the street"
-	puts "Bushwick Library - head down Manhattan, left on Seigel street"
-	puts "Leonard Library - up Manhattan, left on Devoe. Corner of Devoe and Leonard"
+	puts "Brooklyn"
+	puts "19 Cafe 		— down the street"
+	puts "Bushwick Lib 		- head down Manhattan, left on Seigel street"
+	puts "Leonard Lib 		- up Manhattan, left on Devoe. Corner of Devoe and Leonard"
 	puts ''
-	puts "Housing Works - M to Broadway-Lafayette (20min)"
-	puts "Jefferson Market - M to W 4th (24min)"
-	puts "MET - L to 4/5 to 86th (43min)"
-	puts "Schwarzman - M to 42nd st Bryant Park (32min)"
-	puts "SIBL - M to 34th st (32min)"
+	puts "Manhattan"
+	puts "Housing Works  		- M to Broadway-Lafayette (20min)"
+	puts "Jefferson Mrkt 		- M to W 4th (24min)"
+	puts "MET 			- L to 4/5 to 86th (43min)"
+	puts "Schwarzman 		- M to 42nd st Bryant Park (32min)"
+	puts "SIBL 			- M to 34th st (32min)"
+	break
 elsif response == "no"
 else puts "please put yes or no"
 	response = gets.chomp
 end
 end
-
-
- 
