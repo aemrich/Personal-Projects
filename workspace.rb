@@ -83,6 +83,8 @@ sibl = ['',
 	"11am - 6pm", 
 	"Closed"]
 
+#I'm using wonky looking formatting below to make the strings line up when printed to console. Maybe refactor with printf in the future? Printf could just make the code more complicated, needlessly.
+
 puts "BROOKLYN"
 puts "19 Cafe			#{cafe[today]}"
 puts "Bushwick Library	#{bushwick[today]}"
